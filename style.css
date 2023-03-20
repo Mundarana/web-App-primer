@@ -220,14 +220,7 @@ header{
   justify-content: center;
   gap: 1.5rem;
 }
-.back-button{
-  position: absolute;
-  background: rgb(226, 42, 5);
-  font-size: 0.9rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  color: var(--second-color);
-}
+
 
 /* Contect.HTML */
 .form{
@@ -260,9 +253,12 @@ header{
   color: var(--second-color);
 }
 small{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,auto));
   justify-content: center;
+  gap: 1.5rem;
 }
+
 
 /* About.HTML */
 .my-box{
